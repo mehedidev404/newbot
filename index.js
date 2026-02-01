@@ -28,7 +28,7 @@ cron.schedule(
   '0 8 * * *',
   () => {
     sendGanduMessage(
-      "Ekhon tik moto sobai ase nai, aisob ki? 🤨 Don't Force me to take action about you guy's! Gandu-panti bad den!",
+      "Ekhon tik moto sobai ase nai, aisob ki? 🤨 Don't Force me to take action about you guy's!",
     );
   },
   { timezone: 'Asia/Dhaka' },
@@ -38,9 +38,7 @@ cron.schedule(
 cron.schedule(
   '0 11 * * *',
   () => {
-    sendGanduMessage(
-      'Oi shon, Delivery Plan koren ajker. Shomoy kintu boshe nai! ⏳',
-    );
+    sendGanduMessage('Delivery Plan koren ajker. Shomoy kintu boshe nai! ⏳');
   },
   { timezone: 'Asia/Dhaka' },
 );
@@ -72,7 +70,7 @@ cron.schedule(
   '30 16 * * *',
   () => {
     sendGanduMessage(
-      'Things are not getting well as i expected... 🙄 Boltesi ekta, kortesen arekta! Gandu-ra ki koros tosh?',
+      'Things are not getting well as i expected... 🙄 Boltesi ekta, kortesen arekta!',
     );
   },
   { timezone: 'Asia/Dhaka' },
